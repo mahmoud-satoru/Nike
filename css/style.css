@@ -96,7 +96,7 @@
     background-color: var(--main_color);
 }
 
-.part_2{
+.part_2:nth-child(1){
     overflow: visible;
     transform: translateY(100px);
 }
