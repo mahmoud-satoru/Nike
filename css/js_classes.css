@@ -1,0 +1,40 @@
+.Active{
+    z-index: 15;
+}
+
+.scrolling{
+    transform: translateY(-100px);
+}
+
+.active_ancor{
+    color: var(--main_color) !important;
+}
+
+nav ul li.nav-item a.active_ancor::before {
+    opacity: 1;
+    bottom: 0;
+    right: 0;
+}
+
+nav ul li.nav-item a.active_ancor::after {
+    opacity: 1;
+    top: 0;
+    left: 0;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.none{
+    display: none;
+}
+
+.size_select{
+    background-color: var(--main_color);
+    color: #fff;
+}
+
+.active_li{
+    background-color: #000 !important;
+}

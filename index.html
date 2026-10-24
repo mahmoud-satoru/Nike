@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content=" ">
+    <meta name="author" content=" ">
+    <meta name="description" content=" ">
+    <title></title>
+    <link rel="icon" href="" type="">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/js_classes.css">
+    
+</head>
+
+<body>
+
+    <div class="loading">
+        <img src="imgs/header/nike-7521242a.gif" alt="">
+    </div>
+
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="imgs/header/1.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item position-relative">
+                    <a class="nav-link active_ancor" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                    <a class="nav-link" href="#Latest">Latest</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                    <a class="nav-link" href="#Featured">Featured</a>
+                    </li>
+                </ul>
+
+                <ul class="d-flex justify-content-between list_of_icons">
+                    <i class="fa-solid fa-heart"></i>
+                    <i onclick="openPopup_9()" class="fa-solid fa-cart-shopping"></i>
+                    <i onclick="openPopup()" class="fa-solid fa-user"></i>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="sliders position-relative w-100" id="Home">
+
+    <div class="slides">
+
+    <div class="slider_1 w-100 slide Active position-absolute">
+        <div class="container">
+        <div class="row">
+            <div class="part part_1 col-md-6 col-12 col-sm-12">
+                <h5>Nike Red Shoes</h5>
+                <h3>Nike Metcon Shoes</h3>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Repellat Maiores Et Eos Eaque Veritatis Aut Laboriosam Earum Dolorem Iste Atque.</p>
+                <a href="#">See More</a>
+            </div>
+            <div class="part part_2 col-md-6 col-12 col-sm-12 position-relative">
+                <img src="imgs/home/home-text-1-6b65fe86.png" class="position-absolute img_1" alt="">
+                <img src="imgs/home/home-shoe-1-8709721e.png" class="position-absolute img_2" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="slider_2 w-100 slide position-absolute">
+        <div class="container">
+        <div class="row">
+            <div class="part part_1 col-md-6 col-12 col-sm-12">
+                <h5>Nike Blue Shoes</h5>
+                <h3>Nike Metcon Shoes</h3>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Repellat Maiores Et Eos Eaque Veritatis Aut Laboriosam Earum Dolorem Iste Atque.</p>
+                <a href="#">See More</a>
+            </div>
+            <div class="part part_2 col-md-6 col-12 col-sm-12 position-relative">
+                <img src="imgs/home/home-text-2-4283a122.png" class="position-absolute img_1" alt="">
+                <img src="imgs/home/home-shoe-2-f19f7698.png" class="position-absolute img_2" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="slider_3 w-100 slide position-absolute">
+        <div class="container">
+        <div class="row">
+            <div class="part part_1 col-md-6 col-12 col-sm-12">
+                <h5>Nike Yellow Shoes</h5>
+                <h3>Nike Metcon Shoes</h3>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Repellat Maiores Et Eos Eaque Veritatis Aut Laboriosam Earum Dolorem Iste Atque.</p>
+                <a href="#">See More</a>
+            </div>
+            <div class="part part_2 col-md-6 col-12 col-sm-12 position-relative">
+                <img src="imgs/home/home-text-3-4093633c.png" class="position-absolute img_1" alt="">
+                <img src="imgs/home/home-shoe-3-55ec87ce.png" class="position-absolute img_2" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+    
+    <div class="buttons position-absolute">
+        <button class="left" onclick="previous_img(); previous_img_2(); previous_img_3();">
+            <i class="fa-solid fa-angle-left"></i>
+        </button>
+
+        <button class="right" onclick="next_img(); next_img_2(); next_img_3();">
+            <i class="fa-solid fa-angle-right"></i>
+        </button>
+    </div>
+
+    </div>
+
+    <div class="panner row">
+
+        <div class="part__1 col-12 col-sm-12 col-md-6 p-0">
+            <img src="imgs/header/home-banner-1-7c9a6902.png" class="w-100" alt="">
+        </div>
+        <div class="part__2  col-12 col-sm-12 col-md-6 p-0">
+            <img src="imgs/header/home-banner-2-208238d7.png" class="w-100" alt="">
+        </div>
+        
+
+    </div>
+
+
+    <div class="title w-100 position-relative" id="Latest">
+        <img src="imgs/header/title/1.png" alt="" class="position-absolute">
+        <h3 class="position-absolute">LATEST PRODUCTS</h3>
+    </div>
+
+
+    <div class="container push">
+    </div>
+
+    <div class="title_2 w-100 position-relative"id="Featured">>
+        <img src="imgs/header/title/1.png" alt="" class="position-absolute">
+        <h3 class="position-absolute">FEATURE PRODUCTS</h3>
+    </div>
+
+    <div class="container">
+        <div class="row proudct">
+            
+            
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+    <div class="popup_box">
+
+        <button class="close_btn" onclick="closePopup()"><i class="fa-regular fa-circle-xmark"></i></button>
+        <h3>Login</h3>
+        <form class="d-flex justify-content-center align-items-center flex-column">
+            <input placeholder="Enter your username" class="form-control mb-3" type="text">
+            <input placeholder="Enter your password" class="form-control mb-3" type="password">
+            <button class="btn btn-primary w-100">Login</button>
+        </form>
+
+    </div>
+    </div>
+
+    <div class="pop_proudcts" id="pop_proudcts">
+    <div class="container">
+        <div class="row p-5">
+
+            <div class="imgscont col-12 col-md-6 wob_up d-flex flex-column align-items-center position-relative">
+
+                <img src="" class="img-fluid main_pop_img" alt="shoe">
+
+                <div class="imgss w-100 position-absolute d-flex">
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 wob_up_2">
+
+                <h2 class="pop_name"></h2>
+
+                <div class="d-flex">
+                    <p class="me-2 text-danger prece"></p>
+                    <p class="pop_price"></p>
+                </div>
+
+                <hr>
+
+                <p class="m-2 pop_description"></p>
+
+                <div class="size d-flex m-2">
+                    <div class="label me-3 d-flex justify-content-center align-items-center">
+                        <h6>Size :</h6>
+                    </div>
+
+                    <div class="value">
+                        <ul class="list-unstyled d-flex column-gap-2 pop_sizes">
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="size d-flex m-2">
+                    <div class="label me-3 d-flex justify-content-center align-items-center">
+                        <h6>Color :</h6>
+                    </div>
+
+                    <div class="value">
+                        <ul class="list-unstyled d-flex column-gap-2 pop_colors">
+                        </ul>
+                    </div>
+                </div>
+
+                <button class="btn btn-danger">Add To Cart</button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="cart" id="cart">
+    <div class="popup_box">
+
+        <button class="close_btn" onclick="closeCart()">
+            <i class="fa-regular fa-circle-xmark"></i>
+        </button>
+
+        <div class="cart_container"></div>
+
+    </div>
+    </div>
+
+
+    
+
+
+    
+
+    
+    <script src="js/shoes.js"></script>    
+    <script src="js/functions.js"></script>    
+    <script src="js/inedx.js"></script>    
+</body>
+
+</html>
