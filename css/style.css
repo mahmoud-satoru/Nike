@@ -596,12 +596,10 @@ ul.shose li {
     overflow-y: auto;
     margin: auto;
     border-radius: 30px;
-    background: linear-gradient(
-        89deg,
-        rgba(126, 121, 209, 1) 22%,
-        rgba(245, 5, 5, 0.57) 71%,
-        rgba(217, 209, 199, 1) 95%
-    );
+    
+    background: -webkit-linear-gradient(to right,#eaeaea,#dbdbdb,#f2f2f2,#ada996);
+    background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+
     box-shadow: 0 0 44px 21px rgba(0, 0, 0, 0.1);
     transform: translateY(-350px) scale(0.1);
     opacity: 0;
@@ -639,7 +637,7 @@ ul.shose li {
 .cart .popup_box {
     background-color: white;
     padding: 30px;
-    width: 90%;
+    width: 68%;
     max-height: 85vh;
     overflow-y: auto;
     border-radius: 10px;
