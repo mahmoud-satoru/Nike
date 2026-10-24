@@ -6,12 +6,12 @@
         overflow-x: hidden;
     }
 
-    .part_2:nth-child(1){
+   .slide:nth-child(-n+3) .part_2{
         overflow: visible;
         transform: translateY(-75px);
     }
 
-    .part_2:nth-child(1) img{
+   .slide:nth-child(-n+3) .part_2 img{
         max-width: 100%;
     }
 
@@ -56,7 +56,7 @@
     }
 
     
-    .part_2:nth-child(1){
+   .slide:nth-child(-n+3) .part_2{
         overflow: visible;
         transform: translateY(-75px);
     }
