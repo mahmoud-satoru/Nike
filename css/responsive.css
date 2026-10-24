@@ -7,7 +7,8 @@
     }
 
     .part_2{
-        overflow: hidden;
+        overflow: visible;
+        transform: translateY(-75px);
     }
 
     .part_2 img{
@@ -52,6 +53,12 @@
     .sliders{
         height: 100dvh;
         padding-top: 100px;
+    }
+
+    
+    .part_2{
+        overflow: visible;
+        transform: translateY(-75px);
     }
 
 }
