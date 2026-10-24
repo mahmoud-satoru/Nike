@@ -9,9 +9,11 @@ html,
 body{
     width: 100%;
     overflow-x: hidden;
-    height: 5000px;
     font-family: 'Nunito';
     background-color: #fff;
+    height: auto;
+    min-height: 100vh;
+    overflow-y: visible;
 }
 
 :root{
