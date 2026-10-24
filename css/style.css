@@ -98,10 +98,11 @@
 
 .part_2{
     overflow: visible;
+    transform: translateY(100px);
 }
 
 .part_2 img{
-    width: 70%;
+    width: 65%;
     max-width: 100%;
     top: 50%;
     left: 50%;
@@ -133,7 +134,6 @@
 }
 
 .sliders{
-    padding-bottom: 150px;
     height: 100dvh;
 }
 
